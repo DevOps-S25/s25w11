@@ -24,6 +24,6 @@ jobs:
           echo "Actor Name: ${{github.actor}}"
           echo "Brranch Name: ${{github.ref_name}}"
       - name: Run HTML Hint
-        run : npx run htmlhint "**/*.html"
+        run : npx htmlhint "**/*.html"
       - name: Run Style Lint
-        run: npx run stylelint "**/*.css"
+        run: npx stylelint "**/*.css"
